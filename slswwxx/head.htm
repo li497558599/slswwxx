@@ -1,0 +1,66 @@
+<div class="header"> <a class="logo" href="/"><img src="/templets/default/images/logo.png" /></a> <img src="/templets/default/images/text01.png" class="h-imga"/>
+  <div class="h-ss">
+    <p>点击免费回拨 ，稍后会有老师回复电话给您，<br/>
+      回拨不会对您产生任何费用，请放心咨询。</p>
+  <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+<input type="hidden" name="action" value="post" />
+<input type="hidden" name="diyid" value="2" />
+<input type="hidden" name="do" value="2" />
+       <input name="" type="submit" class="h-ss-but" value="免费回拨" /><input name="dianhua" type="text" class="h-ss-txt" placeholder="请输入您的手机号码"/>
+<input type="hidden" name="dede_fields" value="xingming,text;xingbie,radio;dianhua,text;nianling,text;beizhu,multitext;wx,text" />
+<input type="hidden" name="dede_fieldshash" value="077837eafafc513179c6c57bbcbe9bc3" />
+</form>
+
+  </div>
+  <div class="h-tel pc">
+    <h3>咨询热线<br/>
+      0371-62713123</h3>
+    <a href="/baom.html" class="wybm">我要报名</a><a target="_blank" href="http://bwt.zoosnet.net/LR/Chatpre.aspx?id=BWT87847229&lng=cn" class="zxzx">在线咨询</a> </div>
+  <div class="h-telph phone">
+    <h3>咨询热线<br/>
+      0371-62713123</h3>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="nav pc">
+  <ul>
+    <li   {dede:field name=typeid runphp="yes"}( @me == "")? @me="class='on'":@me=" ";{/dede:field}><a href="/">网站首页</a></li>
+    
+        <li  {dede:field name=typeid runphp="yes"}(@me=="1")? @me="  class='on'":@me=" ";{/dede:field}><a href="/about.html" >武校介绍</a></li>
+        <li {dede:field name=typeid runphp="yes"}(@me=="4")? @me="  class='on'":@me=" ";{/dede:field}><a href="/zhao.html"  >招生简章</a></li>
+        <li {dede:field name=typeid runphp="yes"}(@me=="5")? @me="  class='on'":@me=" ";{/dede:field}><a href="/ke.html"  >课程安排</a></li>
+        <li  {dede:field name=typeid runphp="yes"}(@me=="12")? @me=" class='on'":@me=" ";{/dede:field}><a href="/shoufei.html" >收费标准</a></li>
+        <li  {dede:field name=typeid runphp="yes"}(@me=="14")? @me=" class='on'":@me=" ";{/dede:field}><a href="/jxhj/" >教学环境</a></li>
+        <li {dede:field name=typeid runphp="yes"}(@me=="3")? @me="  class='on'":@me=" ";{/dede:field}><a href="/news.html"  >新闻动态</a></li>
+        <li {dede:field name=typeid runphp="yes"}(@me=="9")? @me="   class='on'":@me=" ";{/dede:field}><a href="/baom.html"  >网上报名</a></li>
+        <li  {dede:field name=typeid runphp="yes"}(@me=="10")? @me="   class='on'":@me=" ";{/dede:field}><a href="/Contact.html"  >联系我们</a></li>
+      
+    
+  </ul>
+</div>
+<div class="nav phone">
+  <ul>
+    <li class="on"><a href="/">网站首页</a></li>
+    <li><a href="/about.html">学校简介</a></li>
+    <li><a href="/zhao.html">招生简章</a></li>
+    <li><a href="/shoufei.html">收费标准</a></li>
+    <li><a href="/jxhj/">教学环境</a></li>
+    <li><a href="/ke.html">课程安排</a></li>
+    <li><a href="/news.html">新闻动态</a></li>
+    <li><a href="/Contact.html">联系我们</a></li>
+  </ul>
+</div>
+<div class="mflash  ">
+  <div class="swiper-container  ">
+    <ul class="swiper-wrapper  ">
+      <li class="swiper-slide"><a  target="_blank" href="http://bwt.zoosnet.net/LR/Chatpre.aspx?id=BWT87847229&lng=cn" rel="nofollow"><img src="/templets/default/images/banner011.jpg" class="pc"/> <img src="/templets/default/images/banner01.jpg" class="phone"/></a></li>
+      <li class="swiper-slide"><a target="_blank" href="http://bwt.zoosnet.net/LR/Chatpre.aspx?id=BWT87847229&lng=cn" rel="nofollow"><img src="/templets/default/images/banner022.jpg"  class="pc"/><img src="/templets/default/images/banner02.jpg" class="phone"/></a></li>
+      <li class="swiper-slide"><img src="/templets/default/images/banner033.jpg" class="pc" /> <img src="/templets/default/images/banner03.jpg"class="phone" /></li>
+      <li class="swiper-slide"><img src="/templets/default/images/banner044.jpg" class="pc" /> <img src="/templets/default/images/banner04.jpg" class="phone"/></li>
+    </ul>
+
+ 
+  </div>
+
+  <div class="pagination"></div>
+</div>
